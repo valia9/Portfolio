@@ -1,0 +1,40 @@
+footer { 
+    height: 12vh;
+
+     p {
+        margin-top: 1rem;
+         text-align: center;
+         color: $violet-main;
+         text-shadow: none;
+         font-size: 1rem;
+         text-transform: uppercase;
+         font-weight: bolder;
+     }
+
+     .social-icons {
+
+        display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */; 
+        justify-content: center;
+        align-items: center;
+        column-gap: 0.7rem;
+
+        @include respond(tab-land) {
+            column-gap: 1.5rem;
+          }
+
+         i {
+             text-shadow: none;
+             margin-top: 0.7rem;
+             color: $violet-main;
+
+    
+             &:hover {
+                 color: $violet-light;
+             }
+         }
+     }
+
+}

@@ -1,0 +1,33 @@
+#button {
+    background-color: $violet-light;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    visibility:hidden;
+    opacity:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size: 1.5em;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #333;
+        transform: translateY(-2px);
+    }
+
+    &:active {
+        background-color: #555;
+        transform: translateY(0);
+    }
+    
+    &.show {
+        visibility:visible;
+        opacity:1;
+    }
+}

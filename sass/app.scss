@@ -1,0 +1,44 @@
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'base/base';
+@import 'layout/navigation';
+@import 'layout/sections';
+@import 'layout/contact_form';
+@import 'layout/footer';
+@import 'components/text-styles';
+@import 'components/buttons';
+@import 'components/blobs';
+
+
+    @keyframes loader {
+        0% {
+            -webkit-transform: rotate(-5deg); /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
+            -ms-transform: rotate(-5deg); /* IE 9 */
+            transform: rotate(-5deg); /* IE 10, Fx 16+, Op 12.1+ */
+        }
+        50% {
+            -webkit-transform: rotate(20deg); /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
+            -ms-transform: rotate(20deg); /* IE 9 */
+            transform: rotate(20deg); /* IE 10, Fx 16+, Op 12.1+ */
+        }
+        100% {
+            -webkit-transform: rotate(-5deg); /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
+            -ms-transform: rotate(-5deg); /* IE 9 */
+            transform: rotate(-5deg); /* IE 10, Fx 16+, Op 12.1+ */
+        }
+        }
+
+
+        @keyframes blobs{
+            0%{border-radius:26% 74% 61% 39% / 54% 67% 33% 46%}
+            10%{border-radius:74% 26% 47% 53% / 68% 46% 54% 32%}
+            20%{border-radius:48% 52% 30% 70% / 27% 37% 63% 73%}
+            30%{border-radius:73% 27% 57% 43% / 28% 67% 33% 72%}
+            40%{border-radius:63% 37% 56% 44% / 25% 28% 72% 75%}
+            50%{border-radius:39% 61% 70% 30% / 61% 29% 71% 39%}
+            60%{border-radius:27% 73% 29% 71% / 73% 51% 49% 27%}
+            70%{border-radius:39% 61% 65% 35% / 74% 65% 35% 26%}
+            80%{border-radius:55% 45% 37% 63% / 38% 30% 70% 62%}
+            90%{border-radius:25% 75% 70% 30% / 39% 50% 50% 61%}
+            100%{border-radius:66% 34% 33% 67% / 65% 73% 27% 35%}
+            }

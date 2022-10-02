@@ -1,0 +1,67 @@
+.blobs {
+    max-width: 100%;
+    z-index: -2;
+    position: relative;
+}
+
+.blob1 {
+    background-color: rgba($white, $alpha: 0.2);
+    border-radius:26% 74% 31% 39%;
+    animation: 60s blobs ease-in-out infinite alternate;
+
+    width:70%;
+    height:90%;
+    position: fixed;
+    
+    @include respond(phone) {
+        top: 30%;
+        width:90%;
+        height: 60%;
+        background-color: rgba($violet-light, $alpha: 0.15);
+    }
+}
+
+.blob2 {
+        background-color: rgba($pink-champagne, $alpha: 0.15);
+        border-radius:36% 54% 21% 79%;
+        animation: 60s blobs ease-in-out infinite alternate;
+        animation-delay: 1s;
+
+        width:30%;
+        height:60%;
+        z-index: -3;
+        top: 0;
+        left: 0;
+        position: fixed;
+        @include respond(tab-port) {
+            width:60%;
+        }
+    }
+
+    // .blob3 {
+    //     background-color: rgba($violet-light, $alpha: 0.2);
+    //     border-radius:47% 44% 51% 19%;
+    //     animation: blobs 60s ease-in-out infinite alternate;
+
+    //     width:60rem;
+    //     height:30rem;
+    //     position: fixed;
+    // }
+
+
+    .blob4 {
+        background-color: rgba($violet-light, $alpha: 0.15);
+        border-radius:67% 44% 51% 19%;
+        animation: 60s blobs ease-in-out infinite alternate-reverse;
+
+        width:30%;
+        height:60%;
+        right: 0;
+        position: fixed;
+        @include respond(tab-port) {
+            width:60%;
+        }
+        @include respond(phone) {
+            display: none;
+        }
+    }
