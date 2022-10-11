@@ -7,7 +7,7 @@ Lang.prototype.pack.en = {
         "Kontakt": "Contact",
 
         "Ahoj, tady je": "Hi, my name is",
-        "Jsem juniorní vývojářka se sídlem v Praze 👩‍💻": "I am a junior web developer based in Prague 👩‍💻",
+        "Jsem juniorní vývojářka z Prahy 👩‍💻": "I am a junior web developer based in Prague 👩‍💻",
 
         "Dovednosti ✍️": "Skills ✍️",
 
@@ -17,12 +17,21 @@ Lang.prototype.pack.en = {
         "od Czechitas": "from Czechitas",
         "od Coursery": "from Coursera",
 
-        "Různé ⛄️": "Misc ⛄️",
+        "Odkazy 🚀": "Links 🚀",
 
-        "Mluvím 🇬🇧, 🇨🇿 a 🇷🇺": "I speak 🇬🇧, 🇨🇿 and 🇷🇺",
+        "Životopis ke stažení v 🇨🇿": "Download my résumé in 🇨🇿",
+        "Životopis ke stažení v 🇬🇧": "Download my résumé in 🇬🇧",
         "Studuji Marketing a Mezinárodní Obchod (Ing.) 🌎": "I study Marketing and International Business (Ing.) 🌎",
         "Ráda vařím, čtu a běhám 🏃‍♀️": "I like to cook, read and run 🏃‍♀️",
         "Codewars rank: 6 kyu v JS 🏆": "Codewars rank: 6 kyu in JS 🏆",
+
+        // "Různé ⛄️": "Misc ⛄️",
+
+        // "Mluvím 🇬🇧, 🇨🇿 a 🇷🇺": "I speak 🇬🇧, 🇨🇿 and 🇷🇺",
+        // "Studuji Marketing a Mezinárodní Obchod (Ing.) 🌎": "I study Marketing and International Business (Ing.) 🌎",
+        // "Ráda vařím, čtu a běhám 🏃‍♀️": "I like to cook, read and run 🏃‍♀️",
+        // "Codewars rank: 6 kyu v JS 🏆": "Codewars rank: 6 kyu in JS 🏆",
+
 
         "Plantino je webová aplikace, která sleduje zalévání vašich kytiček místo vás.": "Plantino is a web application that tracks the watering of your plants for you.",
         "Je vyvíjená v MERN stacku pomocí REST API.": "Plantino is developed in MERN stack and it uses REST API through Axios.",
@@ -41,7 +50,7 @@ Lang.prototype.pack.en = {
         "Vaše jmeno": "Your name",
         "Váš email": "Your email",
         "Vaše zpráva": "Your message",
-        "Odeslát": "Send",
+        "Odeslat": "Send",
   
     }
 }

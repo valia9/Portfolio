@@ -153,12 +153,14 @@ nav:nth-of-type(2) {
   align-items: flex-start;
   column-gap: 4rem;
   position: relative;
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
 }
 @media (max-width: 75em) {
   .container-main .about-cards {
     flex-direction: column;
     margin-top: 0;
+    width: 100%;
   }
 }
 .container-main .card {
@@ -175,7 +177,8 @@ nav:nth-of-type(2) {
 @media (max-width: 75em) {
   .container-main .card {
     align-items: center;
-    max-width: 20rem;
+    min-width: 30rem;
+    max-width: 30rem;
     padding: 0 2rem;
     margin: 1rem auto;
     border-radius: 2rem;
@@ -185,6 +188,7 @@ nav:nth-of-type(2) {
 }
 @media (max-width: 37.5em) {
   .container-main .card {
+    min-width: 20rem;
     max-width: 20rem;
   }
 }
@@ -352,6 +356,15 @@ footer .social-icons i:hover {
   display: inline-block;
 }
 
+a.text-link {
+  color: rgb(88, 18, 153);
+  text-decoration: none;
+}
+a.text-link:hover {
+  border-bottom: 1px solid;
+  background: rgb(255, 255, 255);
+}
+
 .text-main {
   text-align: left;
   font-size: 5rem;
@@ -386,8 +399,13 @@ footer .social-icons i:hover {
 }
 @media (max-width: 75em) {
   .text-main-container {
-    max-width: 18rem;
     margin: 0 auto;
+  }
+}
+@media (max-width: 37.5em) {
+  .text-main-container {
+    max-width: 18rem;
+    top: 20%;
   }
 }
 
@@ -441,6 +459,7 @@ p:nth-last-child(2) {
   font-weight: bolder;
   margin: 1rem auto;
   position: relative;
+  width: 100%;
 }
 .text-subsection::after {
   content: "";
